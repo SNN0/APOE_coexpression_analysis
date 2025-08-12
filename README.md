@@ -38,11 +38,11 @@ The project is organized into a modular structure to ensure clarity and reproduc
 
 - `scripts/`: Houses all R scripts, organized by function.
 
-&nbsp;   - `\*\_data\_processing.R`: Scripts for handling raw data, quality control, and normalization.
+   - `data_processing.R`: Scripts for handling raw data, quality control, and normalization.
 
-&nbsp;   - `\*\_functions.R`: A library of helper functions for correlation, network, and enrichment analysis.
+   - `functions.R`: A library of helper functions for correlation, network, and enrichment analysis.
 
-&nbsp;   - `main\_analysis.R`: The central script that orchestrates the entire workflow.
+   - `main_analysis.R`: The central script that orchestrates the entire workflow.
 
 
 
@@ -52,17 +52,17 @@ To run this analysis, you need to have R installed along with the following pack
 
 ```R
 
-\# Install CRAN packages
+# Install CRAN packages
 
 install.packages(c("dplyr", "tidyverse", "data.table", "ggplot2", "writexl", "Hmisc", "foreach", "doParallel"))
 
 
 
-\# Install Bioconductor packages
+# Install Bioconductor packages
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
 
-&nbsp;   install.packages("BiocManager")
+    install.packages("BiocManager")
 
 BiocManager::install(c("DESeq2", "limma", "edgeR", "clusterProfiler", "org.Hs.eg.db", "enrichplot", "biomaRt"))
 
