@@ -1,0 +1,11 @@
+# Exclude large raw data files from version control
+data/raw/
+
+# Exclude R-specific temporary files
+.Rhistory
+.RData
+.Rproj.user
+.Rprofile
+
+# Exclude analysis outputs that can be reproduced by running the main script
+output/
