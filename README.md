@@ -6,6 +6,7 @@
 
 This project investigates the impact of APOE genotypes on gene co-expression networks in Alzheimer's disease (AD) using RNA-sequencing data from two major cohorts: the Religious Orders Study and Memory and Aging Project (ROSMAP) and the Mount Sinai Brain Bank (MSBB). The primary goal is to identify co-expression patterns that are altered across different APOE genotypes (E2E3, E3E3, and E3E4), providing insights into genotype-specific molecular mechanisms underlying AD pathology. The analysis workflow is designed to be fully reproducible, from raw data processing to the identification of genotype-specific networks and their functional enrichment.
 
+![Workflow](https://i.imgur.com/694GZkY.png)
 
 
 ## Key Features
